@@ -1,0 +1,86 @@
+09:37:34.429 [main] INFO  keywords.CommonActionKeywords - *******************************************************************************************************
+09:37:34.439 [main] INFO  keywords.CommonActionKeywords - *********************** ***TEST RUN*** Execution Started **********************
+09:37:34.454 [main] INFO  keywords.CommonActionKeywords - Thu May 25 09:37:34 IST 2023
+09:37:34.455 [main] INFO  keywords.CommonActionKeywords - *******************************************************************************************************
+09:37:34.456 [main] INFO  demoWebShop.Base - getTestDataProperties-->Loading property: USER_EMAIL from testdata.properties
+09:37:34.469 [main] INFO  demoWebShop.Base - getTestDataProperties-->Loading property: USER_PASSWORD from testdata.properties
+09:37:34.469 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: Browser from environment.properties
+09:37:34.494 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: URL_IN_USE from environment.properties
+09:37:34.495 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: Implicit_Wait_Time from environment.properties
+09:37:34.495 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: Explicit_Wait_Time from environment.properties
+09:37:34.496 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: userName from environment.properties
+09:37:34.497 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: passWord from environment.properties
+09:37:34.498 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: emailId from environment.properties
+09:37:34.499 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: URL_IN_USE from environment.properties
+09:37:34.500 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: App_Direct_URL from environment.properties
+09:37:34.500 [main] INFO  demoWebShop.Base - getProperties-->loading property: Screenshot_Archive_Days from environment.properties
+09:37:34.501 [main] INFO  demoWebShop.Base - getProperties-->loading property: Screenshot_Location from environment.properties
+09:37:34.506 [main] INFO  utilities.ExecutionResult - *******************************************************************************************************
+09:37:34.507 [main] INFO  utilities.ExecutionResult - ************************Test Module: registerUser Execution Started************************
+09:37:34.507 [main] INFO  utilities.ExecutionResult - Thu May 25 09:37:34 IST 2023
+09:37:34.507 [main] INFO  utilities.ExecutionResult - *******************************************************************************************************
+09:37:34.569 [main] INFO  demoWebShop.Base - getProperties-->loading property: TestData_Folder from environment.properties
+09:37:43.519 [main] ERROR utilities.Log - Unable to initialize the driverorg.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 109.0.5414.141 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FSOCIETY', ip: '192.168.1.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '16.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004F6903+2517251]
+	Ordinal0 [0x0048F8E1+2095329]
+	Ordinal0 [0x00392848+1058888]
+	Ordinal0 [0x003B0B9D+1182621]
+	Ordinal0 [0x003ACA60+1165920]
+	Ordinal0 [0x003AA2CF+1155791]
+	Ordinal0 [0x003DAAAF+1354415]
+	Ordinal0 [0x003DA71A+1353498]
+	Ordinal0 [0x003D639B+1336219]
+	Ordinal0 [0x003B27A7+1189799]
+	Ordinal0 [0x003B3609+1193481]
+	GetHandleVerifier [0x00685904+1577972]
+	GetHandleVerifier [0x00730B97+2279047]
+	GetHandleVerifier [0x00586D09+534521]
+	GetHandleVerifier [0x00585DB9+530601]
+	Ordinal0 [0x00494FF9+2117625]
+	Ordinal0 [0x004998A8+2136232]
+	Ordinal0 [0x004999E2+2136546]
+	Ordinal0 [0x004A3541+2176321]
+	BaseThreadInitThunk [0x74FD6A24+36]
+	RtlInitializeExceptionChain [0x7773A9FF+143]
+	RtlInitializeExceptionChain [0x7773A9CA+90]
+
+09:37:43.531 [main] INFO  demoWebShop.Base - getProperties-->loading property: TestReport_Folder from environment.properties
+09:37:43.560 [main] INFO  utilities.ExecutionResult - *******************************************************************************************************
+09:37:43.560 [main] INFO  utilities.ExecutionResult - **************************Starting Test Case:registerPageTest Execution*************************
+09:37:43.561 [main] INFO  utilities.ExecutionResult - *******************************************************************************************************
+09:37:43.567 [main] ERROR utilities.ExecutionResult - java.lang.NoClassDefFoundError: Could not initialize class utilities.ExtentTestManager
+09:37:43.571 [main] INFO  keywords.CommonActionKeywords - Unable to take Sceenshot taken for failed Step
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "keywords.CommonActionKeywords.driver" is null
+	at keywords.CommonActionKeywords.takeScreenshot(CommonActionKeywords.java:299) ~[classes/:?]
+	at utilities.ExecutionResult.onTestFailure(ExecutionResult.java:64) ~[classes/:?]
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:834) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+09:37:43.671 [main] INFO  utilities.ExecutionResult - *******************************************************************************************************
+09:37:43.672 [main] INFO  utilities.ExecutionResult - ************************Test Module: registerUser Execution Completed************************
+09:37:43.672 [main] INFO  utilities.ExecutionResult - Thu May 25 09:37:43 IST 2023
+09:37:43.673 [main] INFO  utilities.ExecutionResult - *******************************************************************************************************

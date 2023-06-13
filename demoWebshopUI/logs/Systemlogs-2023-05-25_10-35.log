@@ -1,0 +1,45 @@
+10:35:05.899 [main] INFO  keywords.CommonActionKeywords - *******************************************************************************************************
+10:35:05.909 [main] INFO  keywords.CommonActionKeywords - *********************** ***TEST RUN*** Execution Started **********************
+10:35:05.923 [main] INFO  keywords.CommonActionKeywords - Thu May 25 10:35:05 IST 2023
+10:35:05.924 [main] INFO  keywords.CommonActionKeywords - *******************************************************************************************************
+10:35:05.927 [main] INFO  demoWebShop.Base - getTestDataProperties-->Loading property: USER_EMAIL from testdata.properties
+10:35:05.928 [main] INFO  demoWebShop.Base - getTestDataProperties-->Loading property: USER_PASSWORD from testdata.properties
+10:35:05.929 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: Browser from environment.properties
+10:35:05.930 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: URL_IN_USE from environment.properties
+10:35:05.931 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: Implicit_Wait_Time from environment.properties
+10:35:05.932 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: Explicit_Wait_Time from environment.properties
+10:35:05.932 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: userName from environment.properties
+10:35:05.933 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: passWord from environment.properties
+10:35:05.934 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: emailId from environment.properties
+10:35:05.935 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: URL_IN_USE from environment.properties
+10:35:05.936 [main] INFO  demoWebShop.Base - getEnvProperties-->loading property: App_Direct_URL from environment.properties
+10:35:05.937 [main] INFO  demoWebShop.Base - getProperties-->loading property: Screenshot_Archive_Days from environment.properties
+10:35:05.938 [main] INFO  demoWebShop.Base - getProperties-->loading property: Screenshot_Location from environment.properties
+10:35:05.942 [main] INFO  utilities.ExecutionResult - *******************************************************************************************************
+10:35:05.943 [main] INFO  utilities.ExecutionResult - ************************Test Module: registerUser Execution Started************************
+10:35:05.943 [main] INFO  utilities.ExecutionResult - Thu May 25 10:35:05 IST 2023
+10:35:05.944 [main] INFO  utilities.ExecutionResult - *******************************************************************************************************
+10:35:05.982 [main] INFO  demoWebShop.Base - getProperties-->loading property: TestData_Folder from environment.properties
+10:35:10.525 [main] INFO  keywords.CommonActionKeywords - Driver initiaized successfully
+10:35:10.550 [main] INFO  utilities.ExecutionResult - *******************************************************************************************************
+10:35:10.550 [main] INFO  utilities.ExecutionResult - **************************Starting Test Case:registerPageTest Execution*************************
+10:35:10.551 [main] INFO  utilities.ExecutionResult - *******************************************************************************************************
+10:35:10.556 [main] INFO  demoWebShop.Base - getProperties-->loading property: TestReport_Folder from environment.properties
+10:35:10.766 [main] INFO  demoWebShop.Base - getProperties-->loading property: Environment from environment.properties
+10:35:13.850 [main] INFO  keywords.CommonActionKeywords - Logging with user name: user1lname@gmail.com
+10:35:16.770 [main] INFO  utilities.Log - Application launched successfully
+10:35:16.787 [main] INFO  utilities.ExecutionResult - *******************************************************************************************************
+10:35:16.787 [main] INFO  utilities.ExecutionResult - **************************Test Case:registerPageTest PASSED*******************************
+10:35:16.788 [main] INFO  utilities.ExecutionResult - *******************************************************************************************************
+10:35:16.790 [main] INFO  keywords.CommonActionKeywords - Closing all the browsers
+10:35:17.518 [main] INFO  utilities.Log - Application closed successfully
+10:35:17.535 [main] INFO  utilities.ExecutionResult - *******************************************************************************************************
+10:35:17.535 [main] INFO  utilities.ExecutionResult - ************************Test Module: registerUser Execution Completed************************
+10:35:17.536 [main] INFO  utilities.ExecutionResult - Thu May 25 10:35:17 IST 2023
+10:35:17.536 [main] INFO  utilities.ExecutionResult - *******************************************************************************************************
+10:35:17.538 [main] INFO  keywords.CommonActionKeywords - Test Cases Passed: [ResultMap map=[[TestResult name=registerPageTest status=SUCCESS method=S100_testRegisterUser.registerPageTest(java.lang.String,java.lang.String)[pri:0, instance:registerUser.S100_testRegisterUser@73db4768] output={null}]]]
+10:35:17.539 [main] INFO  keywords.CommonActionKeywords - Test Cases Failed: [ResultMap map=[]]
+10:35:17.539 [main] INFO  keywords.CommonActionKeywords - *****************************************************************************************************
+10:35:17.540 [main] INFO  keywords.CommonActionKeywords - Test Case execution report available at: ./TestReportdemoWebUI_ExecutionReport25May23_1035.html
+10:35:17.540 [main] INFO  keywords.CommonActionKeywords - Execution completed: 2023-05-25T10:35:17.521+0530
+10:35:17.541 [main] INFO  keywords.CommonActionKeywords - *****************************************************************************************************

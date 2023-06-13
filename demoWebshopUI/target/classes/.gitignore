@@ -1,0 +1,12 @@
+/META-INF/
+/constants/
+/dataengine/
+/demoWebShop/
+/entites/
+/environment.properties
+/keywords/
+/log4j2.xml
+/model/
+/pageObjects/
+/testdata.properties
+/utilities/
