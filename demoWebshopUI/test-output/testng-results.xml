@@ -2,27 +2,27 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-25T10:35:05 IST" name="***TEST RUN***" finished-at="2023-05-25T10:35:17 IST" duration-ms="11581">
+  <suite started-at="2023-06-13T09:58:54 IST" name="***TEST RUN***" finished-at="2023-06-13T09:59:18 IST" duration-ms="24030">
     <groups>
     </groups>
-    <test started-at="2023-05-25T10:35:05 IST" name="registerUser" finished-at="2023-05-25T10:35:17 IST" duration-ms="11581">
+    <test started-at="2023-06-13T09:58:54 IST" name="registerUser" finished-at="2023-06-13T09:59:18 IST" duration-ms="24030">
       <class name="registerUser.S100_testRegisterUser">
-        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:registerUser.S100_testRegisterUser@73db4768]" started-at="2023-05-25T10:35:05 IST" name="beforeSuite" finished-at="2023-05-25T10:35:05 IST" duration-ms="56" status="PASS">
+        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:registerUser.S100_testRegisterUser@73db4768]" started-at="2023-06-13T09:58:54 IST" name="beforeSuite" finished-at="2023-06-13T09:58:54 IST" duration-ms="72" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@d4df0e]]>
+                <![CDATA[org.testng.TestRunner@74606204]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:registerUser.S100_testRegisterUser@73db4768]" started-at="2023-05-25T10:35:06 IST" name="beforeMethod" finished-at="2023-05-25T10:35:10 IST" duration-ms="3677" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:registerUser.S100_testRegisterUser@73db4768]" started-at="2023-06-13T09:58:56 IST" name="beforeMethod" finished-at="2023-06-13T09:59:07 IST" duration-ms="11370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="registerPageTest(java.lang.String,java.lang.String)[pri:0, instance:registerUser.S100_testRegisterUser@73db4768]" started-at="2023-05-25T10:35:10 IST" name="registerPageTest" data-provider="dataEngine" finished-at="2023-05-25T10:35:16 IST" duration-ms="6242" status="PASS">
+        <test-method signature="registerPageTest(java.lang.String,java.lang.String)[pri:0, instance:registerUser.S100_testRegisterUser@73db4768]" started-at="2023-06-13T09:59:07 IST" name="registerPageTest" data-provider="dataEngine" finished-at="2023-06-13T09:59:17 IST" duration-ms="9641" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,15 +38,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerPageTest -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:registerUser.S100_testRegisterUser@73db4768]" started-at="2023-05-25T10:35:16 IST" name="TearDown" finished-at="2023-05-25T10:35:17 IST" duration-ms="729" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:registerUser.S100_testRegisterUser@73db4768]" started-at="2023-06-13T09:59:17 IST" name="TearDown" finished-at="2023-06-13T09:59:18 IST" duration-ms="1034" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:registerUser.S100_testRegisterUser@73db4768]" started-at="2023-05-25T10:35:17 IST" name="afterSuite" finished-at="2023-05-25T10:35:18 IST" duration-ms="526" status="PASS">
+        <test-method is-config="true" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:registerUser.S100_testRegisterUser@73db4768]" started-at="2023-06-13T09:59:18 IST" name="afterSuite" finished-at="2023-06-13T09:59:19 IST" duration-ms="618" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@d4df0e]]>
+                <![CDATA[org.testng.TestRunner@74606204]]>
               </value>
             </param>
           </params>
